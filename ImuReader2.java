@@ -50,7 +50,7 @@ public class ImuReader2 {
         parameters.loggingEnabled      = false;
 
 //        parameters.loggingTag          = "IMU";
-//        parameters.accelerationIntegrationAlgorithm = new JustLoggingAccelerationIntegrator();
+//        parameters.accelerationIntegrationAgorithm = new JustLoggingAccelerationIntegrator();
 
         imu1.initialize(parameters);
 
