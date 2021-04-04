@@ -44,7 +44,7 @@ public class ImuReader {
 
 
         // Retrieve and initialize the IMU. We expect the IMU to be attached to an I2C port
-        // on a Core Device Interface Module, configured to be a sensor of type "AdaFruit IMU",
+        // on a Core Denterface Module, configured to be a sensor of type "AdaFruit IMU",
         // and named "imu".
 
         imu.initialize(parameters);
